@@ -1,0 +1,104 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Add position relative */
+}
+
+
+.left{
+    position: absolute;
+    left: 34px;
+    top: 7px;
+    color: white;
+     display: inline-block;
+     filter: invert(100%);
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.mid{
+    display: block;
+    width: 600px;
+    margin: 14px auto;
+    color: white;
+    padding-top: 10px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 14px;
+    color: white;
+    display: inline-block;
+   
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 4px;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px 0px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: gray;
+    text-decoration: underline;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-color: rgba(248, 246, 246, 0.856);
+    border-width: 2px;
+    border-radius: 4px;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    border-color: rgb(3, 3, 3);
+    border-width: 2px;
+    cursor: pointer;
+
+}
+.container{
+    border: 2px solid rgba(199, 196, 196, 0.699);
+    margin: 160px 40px;
+    width: 32%;
+    border-radius: 10px;
+    padding: 33px;
+    margin: 180px 40px;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+.container h1{
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: 8px auto;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+}
+.container button{
+    display: block;
+    width: 67%;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
