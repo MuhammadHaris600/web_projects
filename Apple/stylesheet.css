@@ -1,0 +1,670 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(228, 221, 221);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-sizing: border-box;
+
+
+}
+
+.logo img {
+    width: 18px;
+    margin: 5px 5px 10px 20px;
+    /* Adjusted the margin values */
+    padding: 0px;
+}
+
+.logo {
+    display: inline-block;
+    /* Changed from block to inline-block */
+    width: 30px;
+}
+
+.navbar .apple-link {
+    display: inline-block;
+    /* Changed from block to inline-block */
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #f1e7e7de;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul li a {
+    color: black;
+    /* Added color to differentiate links from logo */
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+ul {
+    overflow: auto;
+    margin: 0;
+    /* Added to remove default margin */
+    padding: 0;
+    /* Added to remove default padding */
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0px 3px;
+    float: left;
+    margin-left: 30px;
+}
+
+.searchicon {
+    display: inline-block;
+
+}
+
+.searchicon img {
+    width: 20px;
+    padding-left: 30px;
+}
+
+.bagicon img {
+    width: 13px;
+    padding-left: 30px;
+}
+
+.content {
+    display: block;
+    width: 450px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.content h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.content p {
+    font-size: 27px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+
+.content a {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.macbook-img {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.macbook-img img {
+    margin-top: 50px;
+    margin-right: 800px;
+    width: 900px;
+}
+
+.features {
+    border-top: 10px solid rgb(255, 255, 255);
+}
+
+.row {
+
+    display: block;
+    width: 500px;
+    margin: auto;
+
+}
+
+.text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.text .text1 h1 {
+    margin-left: 70px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.text p {
+    margin-top: 3px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+
+.link-shop {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+
+.link-shop a {
+    text-decoration: none;
+}
+
+.img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.play-btn img {
+    display: block;
+    margin-left: 96%;
+    margin-bottom: 10px;
+    width: 20px
+}
+
+.content1 h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-left: 40px;
+    color: white;
+}
+
+.text2 {
+    font-size: 30px;
+}
+
+.text2 p {
+    margin-top: 3px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    color: white;
+}
+
+#bg {
+    background-color: black;
+}
+
+#bg a {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.iphone-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iphone-img img {
+    margin-top: 70px;
+    margin-right: 350px;
+    width: 400%;
+    filter: saturate(5);
+}
+
+.border-container {
+    display: flex;
+
+}
+
+.border-container .block {
+
+    border-right: 10px solid rgb(255, 255, 255);
+}
+
+.block {
+
+    display: inline-block;
+    width: 680px;
+
+}
+
+.row3 {
+    display: block;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.iphone-14 h1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.text3 p {
+    margin-top: 8px;
+    font-size: 30px;
+    padding-left: 50px;
+    margin-bottom: 5px;
+
+}
+
+.row3 a {
+
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iph-img img {
+    margin-top: 18px;
+    width: 680px;
+    filter: saturate(2);
+}
+
+.visionpro {
+    display: flex;
+    display: inline-block;
+    width: 652px;
+    height: 83vh;
+    background-image: url(appleimages/visionprooo.png);
+    filter: brightness(1);
+    background-size: contain;
+    /* Adjust background image sizing */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row4 {
+    margin-top: 66%;
+    margin-left: 27%;
+}
+
+.row4 p {
+    margin-top: 2px;
+    font-size: 20px;
+    padding-left: 2px;
+    margin-bottom: 5px;
+
+}
+
+#ptag p {
+    margin-left: 35px;
+    font-size: 17px;
+    color: rgb(109, 103, 103);
+}
+
+.logo1 {
+    margin-left: 80px;
+    padding-top: 4px;
+    float: left;
+    align-items: center;
+}
+
+.logo1 img {
+    width: 25px;
+
+}
+
+.text4 h1 {
+
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.row4 a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 85px;
+
+}
+
+#background {
+    background-color: black;
+}
+
+.row5 {
+
+    margin-left: 20%;
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.logo2 {
+    margin-left: 87px;
+    float: left;
+    display: flex;
+}
+
+.logo2 img {
+    width: 30px;
+    filter: invert(100%);
+}
+
+.watch h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#Series p {
+    margin-top: 0px;
+    color: red;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+#text5 {
+    text-align: center;
+}
+
+.row5 #text5 p {
+    margin-top: 3px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.row5 a {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.watch {
+    width: 300px;
+}
+
+.watch-img {
+
+    filter: contrast(100%)
+}
+
+.ipadpro {
+    display: flex;
+    display: inline-block;
+    width: 652px;
+    height: 85vh;
+    background-color: black;
+}
+
+.row6 {
+    margin-left: 20%;
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.text6 {
+    font-size: 25px;
+
+}
+
+.text6 h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 3px;
+    padding-left: 30px;
+}
+
+.row6 p {
+    margin-top: 4px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 80px;
+}
+
+.m2 {
+
+    text-align: center;
+}
+
+.m2 img {
+    display: flex;
+    width: 40px;
+}
+
+.row6 a {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ipad-img img {
+    width: 400px;
+    
+    filter: contrast(2);
+}
+
+.row7 {
+    margin-left: 20%;
+    display: block;
+    width: 350px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#appleimg img {
+    filter: invert(0%);
+}
+
+.row7 h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.row7 p {
+    margin-top: 4px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row7 a {
+    margin-left: 60px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.tradein img {
+    width: 680px;
+    align-items: center;
+    filter: contrast(2);
+}
+
+.row8 {
+    display: block;
+    width: 350px;
+    margin: auto;
+    margin-top: 70px;
+    margin-left: 50%;
+}
+.parent{
+    margin-left: 30px;
+}
+#imgtag img {
+    filter: invert(0%);
+}
+.row8 h1{
+    font-size: 30px;
+    margin-bottom: 5px;   
+}
+.text7 p{
+    margin-top: 4px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 3px;  
+}
+.row8 a{
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardimg img{
+    width: 400px;
+    margin-left: 40%;
+    filter: contrast(10);
+    filter: drop-shadow(40px 10px 15px rgba(138, 128, 128, 0.664));
+} 
+.textbox{
+    border-top: 10px solid rgb(255, 255, 255);
+    
+}
+.row9{
+    display: block;
+    width: 80%;
+    margin:auto;
+    padding: 20px 10px;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.973);
+   
+}
+.row9 a{
+    color: black;
+}
+.text9 p{
+    margin: 10px 3px;
+    color: rgba(88, 87, 87, 0.966);
+    font-size: 16px;
+}
+.text9 p a{
+    color: rgba(88, 87, 87, 0.966);
+}
+.row12{
+    display: block;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+}
+.footer .row12{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer .col{
+    padding:20px 5% 10px;
+    flex-basis: 0%;
+    flex-grow: 1;
+    
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.parents{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+.moreways{
+    border-bottom: 1px solid #777;
+    
+}
+.moreways p{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.moreways p a {
+    font-size: 14px;
+}
+.parents p{
+    font-size: 14px;
+    color: #6b6868;
+}
+.footer-link{
+    display: flex;
+    align-items: center;
+ }
+
+  .child p{
+    display: inline-block;
+    width: 350px;
+    color: #6b6868;
+    margin-top: 8px;
+    margin-bottom: 25px;
+   
+  }
+ 
+  .footer-link a{
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration: none;
+  margin-right: 5px;
+  color: #6b6868;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-top: 8px;
+  }
+  .footer-link a::after {
+    content: " | ";
+    margin-left: 3px;
+    margin-right: 4px;
+  }
+  
